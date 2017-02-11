@@ -1,11 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
-/*
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 /* Reset */
 
@@ -1643,7 +1638,7 @@
 	}
 
 		a:hover {
-			color: #E27689;
+			color: #b3d1fc;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
@@ -1816,7 +1811,7 @@
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			box-shadow: 0 0 2px 1px #8ebebc;
+			box-shadow: 0 0 2px 1px #b3d1fc;
 			background: #fff;
 		}
 
@@ -2183,6 +2178,7 @@
 
 			#main > section.one {
 				background-color: #cee2ff;
+				height: 700px;
 				background-image: url("../../images/background_image_2.jpg");
 			}
 
