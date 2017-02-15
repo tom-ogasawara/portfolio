@@ -1702,14 +1702,14 @@
 		}
 
 		.image.avatar48 {
-			width: 96px;
-			height: 96px;
+			width: 48px;
+			height: 48px;
 			background: #f00;
 		}
 
 			.image.avatar48 img {
-				width: 96px;
-				height: 96px;
+				width: 48px;
+				height: 48px;
 			}
 
 		.image.fit {
@@ -1942,7 +1942,14 @@
 		}
 
 			.item header h3 {
-				font-size: 1em;
+				font-size: 1.2em;
+				font-weight: 400;
+			}
+
+			.item h4 {
+				font-size: 0.8em;
+				margin-left: 15px;
+				margin-right: 15px;
 			}
 
 /* Icons */
