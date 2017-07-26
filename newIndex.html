@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/favicon.png">
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
@@ -23,10 +24,11 @@
 					<header id="header" class="alt">
 						<h1><a href="index.html">Tom Ogasawara</a></h1>
 						<nav>
-								<a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home"></span></a>
-								<a href="#four" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th"></span></a>
-								<a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user"></span></a>
-								<a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope"></span></a>
+								<a href="#"><span class="icon fa-home"></span></a>
+								<a href="https://www.linkedin.com/in/tom-ogasawara"><span class="icon fa-linkedin"></span></a>
+								<a href="https://github.com/tom-ogasawara"><span class="icon fa-github"></span></a>
+								<a href="#projects"><span class="icon fa-folder-open"></span></a>
+								<a href="#footer"><span class="icon fa-envelope"></span></a>
 						</nav>
 					</header>
 
@@ -48,9 +50,9 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<div class="logo"><span class="icon fa-diamond"></span></div>
-							<h2>Welcome to my site</h2>
-							<p>This is a description of stuff</p>
+							<div class="logo"><span class="icon fa-tree"></span></div>
+							<h2>Tom Ogasawara</h2>
+							<p>Software Developer</p>
 						</div>
 					</section>
 
@@ -58,9 +60,9 @@
 					<section id="wrapper">
 
 						<!-- One -->
-							<section id="one" class="wrapper spotlight style1">
+							<section id="about" class="wrapper spotlight style1">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/about_image.png" alt="about" /></a>
+									<a href="#about" class="image"><img src="images/about_image.png" alt="about" /></a>
 									<div class="content">
 										<h2 class="major">About me</h2>
 										<p>I'm a software developer based in Berkeley, California. I love building clean, 
@@ -68,35 +70,34 @@
 											the first fourteen years of my education in art schools, where I developed a 
 											love for design and all things creative. 
 										</p>
-										<!-- <a href="#" class="special">Learn more</a> -->
 									</div>
 								</div>
 							</section>
 
 						<!-- Two -->
-							<section id="two" class="wrapper alt spotlight style2">
+							<section id="skills" class="wrapper alt spotlight style2">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/code_thumb.png" alt="" /></a>
+									<a href="#skills" class="image"><img src="images/code_thumb.png" alt="" /></a>
 									<div class="content">
 										<h2 class="major">Skills</h2>
 										<p>I have experience building mobile and web applications with React.js, React Native, Redux,
 											Rails, FireBase, Ruby, GraphQL, JavaScript (ES5/ES6), SQL, HTML5, and CSS3. See my projects 
 											for some examples of my work.</p>
-										 <a href="#four" class="special">Learn more</a> 
+										 <a href="#projects" class="special">Learn more</a> 
 									</div>
 								</div>
 							</section>
 
 						<!-- Three -->
-							<section id="three" class="wrapper spotlight style3">
+							<section id="interests" class="wrapper spotlight style3">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/interests_thumb.png" alt="" /></a>
+									<a href="https://www.youtube.com/watch?v=KaiO-R644Dw" class="image"><img src="images/interests_thumb.png" alt="" /></a>
 									<div class="content">
 										<h2 class="major">Interests</h2>
 										<p>
 											In addition to continually developing new projects and learning new technologies,
 											I love to climb, backpack, cook, travel, and do just about anything outdoors. 
-											I set climbing routes at a local gym, and 
+											I set climbing routes at a local climbing gym, and coach the UC Berkeley climbing team.
 										</p>
 										 <a href="https://www.youtube.com/watch?v=KaiO-R644Dw" class="special">Learn more</a> 
 									</div>
@@ -104,10 +105,9 @@
 							</section>
 
 						<!-- Four -->
-							<section id="four" class="wrapper alt style1">
+							<section id="projects" class="wrapper alt style1">
 								<div class="inner">
 									<h2 class="major">Projects</h2>
-									<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
 									<section class="features">
 										<article>
 											<a href="http://www.onbelay.io" class="image"><img src="images/onbelay_thumb.png" alt="onBelay" /></a>
@@ -168,8 +168,7 @@
 					<section id="footer">
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
-							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-							<form method="post" action="#">
+							<!-- <form method="post" action="#">
 								<div class="field">
 									<label for="name">Name</label>
 									<input type="text" name="name" id="name" />
@@ -185,16 +184,12 @@
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" /></li>
 								</ul>
-							</form>
+							</form> -->
 							<ul class="contact">
-								<li class="fa-home">
-									Untitled Inc<br />
-									1234 Somewhere Road Suite #2894<br />
-									Nashville, TN 00000-0000
-								</li>
-								<li class="fa-phone">(000) 000-0000</li>
-								<li class="fa-envelope"><a href="#">information@untitled.tld</a></li>
-								<li class="fa-instagram"><a href="https://www.instagram.com/tom_ogasawara/">instagram.com/untitled-tld</a></li>
+								<li class="fa-home">Berkeley, CA 94703</li>
+								<li class="fa-phone">(707) 478-5701</li>
+								<li class="fa-envelope">tom.ogasawara@gmail.com</li>
+								<li class="fa-linkedin"><a href="https://www.linkedin.com/in/tom-ogasawara">linkedin.com/in/tom-ogasawara</a></li>
 							</ul>
 						</div>
 					</section>
